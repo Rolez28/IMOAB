@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: monospace;
+
+
+}
+
+header {
+	background-image: url(image.png);
+	height: 100vh;
+	background-image: cover;
+	background-size: 100%;
+}
+
+.container {
+	width: px;
+	margin: auto;
+}
+
+.logo img {
+	width: 140px;
+
+	height: auto;
+}
+
+.nav-Home {
+	float: right;
+	margin-top: 20px;
+}
+
+.nav-Home li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.nav-Home li a:hover {
+	background-color: rgba(0,255,0,0.7);
+	border: solid #fff;
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
+.nav-Home li a {
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px 10px;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 10px;
+	font-family: Roboto,sans-serif;
+}
+
+.nav-Home li a.active {
+	border: 1px solid #fff;
+}
+
+.titleheader {
+	width: 1050px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+
+
+
+
+
+h1 {
+	text-transform: uppercase;
+	font-family: Roboto,sans-serif;
+	font-size: 80px;
+	margin-top: 90px;
+	color: white;
+}
+.btn {
+	padding: 20px 20px;
+	border: 1px solid #fff;
+	margin-right: 5px;
+	text-align: center;
+	margin-top: 20px;
+	font-size:20px;
+	font-style: italic;
+
+}
+.btn-one:hover {
+	background-color:red;
+
+}
+
+.btn-two:hover {
+	background-color: blue;
+}
+.btn-one {
+	border: 1px solid #fff;
+	background-color: gray;
+}
+
+.btn-two {
+	border: 1px solid #000;
+	background-color: darkgrey;
+}
+
+.nav-lol {
+background-color: 1px solid #fff;
+
+}
